@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/list_item_height"
+    android:id="@+id/text_container"
+    >
+
+    <ImageView
+        android:id="@+id/image_id"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@color/tan_background" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="8dp">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/default_textview"
+        tools:text="one"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_weight="1"
+        />
+
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/spanish_textview"
+        tools:text="uno"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:id="@+id/miwok_textview"
+                tools:text="lutti"
+                android:textAppearance="?android:textAppearanceMedium"
+                android:textColor="@android:color/white"
+                android:layout_weight="1"
+                />
+
+            <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/german_textview"
+        tools:text="eins" android:textAppearance="?android:textAppearanceMedium"
+        android:textColor="@android:color/white"
+        android:layout_weight="1"
+        />
+
+        </LinearLayout>
+
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_play"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_play_arrow_white_24dp"
+        android:layout_marginRight="16dp
+        "/>
+
+
+</RelativeLayout>
