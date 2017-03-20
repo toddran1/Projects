@@ -1,0 +1,31 @@
+	
+    
+    		.calendar {
+    		background-color: white;
+    		}
+    
+    		.eventname {
+    		height: 150px;
+    		width: 40%;
+    		border-radius: 25px;
+    		background-color: #FFF3DB;
+    		background:rgba(255,243,219,0.8);
+    		}
+    	
+    		.col-lg-12{
+    		float: center;
+    		height: 40px;
+    		width: 40%;
+    		border-radius: 25px;
+    		background-color: #FFF3DB;
+    		background:rgba(255,243,219,0.8);
+    		}
+    		
+    		.today 
+			{
+				background-color: #ffb3ef;
+			}
+			.event
+			{
+				background-color: #ff4d4d;
+			}
