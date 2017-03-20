@@ -76,16 +76,16 @@ public class PhrasesFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<word> words = new ArrayList<word>();
-        words.add(new word("Where are you going?","minto wuksus","¿A dónde vas?","Wohin gehst du",R.raw.phrase_where_are_you_going));
-        words.add(new word("What is your name?", "tinnә oyaase'nә","","",R.raw.phrase_what_is_your_name));
-        words.add(new word("My name is...", "oyaaset...","","",R.raw.phrase_my_name_is));
-        words.add(new word("How are you feeling?", "michәksәs?","","",R.raw.phrase_how_are_you_feeling));
-        words.add(new word("I’m feeling good.", "kuchi achit","","",R.raw.phrase_im_feeling_good));
-        words.add(new word("Are you coming?", "әәnәs'aa?","","",R.raw.phrase_are_you_coming));
-        words.add(new word("Yes, I’m coming.", "hәә’ әәnәm","","",R.raw.phrase_yes_im_coming));
-        words.add(new word("I’m coming.", "әәnәm","","",R.raw.phrase_im_coming));
-        words.add(new word("Let’s go.", "yoowutis","","",R.raw.phrase_lets_go));
-        words.add(new word("Come here.", "әnni'nem","","",R.raw.phrase_come_here));
+        words.add(new word("Where are you going?","minto wuksus","¿A dónde vas?","Wohin gehst du?",R.raw.phrase_where_are_you_going));
+        words.add(new word("What is your name?", "tinnә oyaase'nә","¿Cuál es su nombre?","Wie heißen Sie?",R.raw.phrase_what_is_your_name));
+        words.add(new word("My name is...", "oyaaset...","Me llamo...","Ich heiße...",R.raw.phrase_my_name_is));
+        words.add(new word("How are you feeling?", "michәksәs?","¿Como te sientes?","Wie fühlen Sie sich?",R.raw.phrase_how_are_you_feeling));
+        words.add(new word("I’m feeling good.", "kuchi achit","Me siento bien.","Ich fühle mich gut.",R.raw.phrase_im_feeling_good));
+        words.add(new word("Are you coming?", "әәnәs'aa?","¿Vienes?","Kommst du?",R.raw.phrase_are_you_coming));
+        words.add(new word("Yes, I’m coming.", "hәә’ әәnәm","Si, voy para allá.","Ja, ich komme.",R.raw.phrase_yes_im_coming));
+        words.add(new word("I’m coming.", "әәnәm","Ya voy.","Ich komme.",R.raw.phrase_im_coming));
+        words.add(new word("Let’s go.", "yoowutis","Vamonos.","Lass uns gehen.",R.raw.phrase_lets_go));
+        words.add(new word("Come here.", "әnni'nem","Ven aca.","Komm her.",R.raw.phrase_come_here));
 
 
         //ArrayAdapter<word> itemsAdapter = new ArrayAdapter<word>(this, R.layout.list_item, words);
