@@ -94,7 +94,7 @@ public class EarthquakeActivity extends AppCompatActivity
                 // Send the intent to launch a new activity
                 startActivity(websiteIntent);
             }
-        });
+        });//OnClickListner
 
         // Get a reference to the ConnectivityManager to check state of network connectivity
         ConnectivityManager connMgr = (ConnectivityManager)

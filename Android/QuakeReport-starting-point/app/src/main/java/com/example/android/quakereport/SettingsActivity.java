@@ -14,7 +14,7 @@ public class SettingsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings_activity);
-    }
+    }//onCreate
 
     public static class EarthquakePreferenceFragment extends PreferenceFragment
             implements Preference.OnPreferenceChangeListener {
@@ -29,7 +29,7 @@ public class SettingsActivity extends AppCompatActivity {
 
             Preference orderBy = findPreference(getString(R.string.settings_order_by_key));
             bindPreferenceSummaryToValue(orderBy);
-        }
+        }//onCreate 2nd
 
         @Override
         public boolean onPreferenceChange(Preference preference, Object value) {
@@ -45,7 +45,7 @@ public class SettingsActivity extends AppCompatActivity {
                 preference.setSummary(stringValue);
             }
             return true;
-        }
+        }//preferenceChange
 
         private void bindPreferenceSummaryToValue(Preference preference) {
             preference.setOnPreferenceChangeListener(this);
@@ -53,6 +53,8 @@ public class SettingsActivity extends AppCompatActivity {
                     PreferenceManager.getDefaultSharedPreferences(preference.getContext());
             String preferenceString = preferences.getString(preference.getKey(), "");
             onPreferenceChange(preference, preferenceString);
-        }
-    }
-}
+        }//summaryToValue
+
+    }//EarthquakePreference
+
+}//settingsActivity
